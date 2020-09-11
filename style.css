@@ -1,0 +1,175 @@
+/* CLASSES */
+.purple-background
+{
+  background-color: purple;
+}
+.grey-background
+{
+  background-color: grey;
+}
+
+#white-background
+{
+  background-color: white;
+}
+.orange-background
+{
+  background-color: orangered;
+}
+.container{
+  width:80%;
+  margin:auto;
+  margin-bottom: 50px;
+  overflow:none;
+  padding: 50px;
+  border-radius: 10%;
+}
+
+/*ID*/
+#basicInfo
+{
+  text-align: center;
+}
+#education p
+{
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 12px;
+}
+#favSongVid iframe
+{
+  margin-left: 300px;
+}
+#favSongVid form
+{
+  margin-left: 500px;
+}
+#favSongVid h2
+{
+  margin-left: 300px;
+}
+
+#programming li
+{
+  text-align: center;
+}
+
+
+/*HEADER*/
+header{
+  background:white;
+  color: #ffffff;
+  padding-top:70px;
+  min-height:70px;
+  border:orangered 3px solid;
+  margin: auto;
+  margin-bottom: 25px;
+}
+header nav{
+  margin:10px 40px 10px 40px;
+}
+header li{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 22px;
+  display:inline;
+  color:white;
+  text-align: center;
+}
+header a{
+  color:white;
+}
+header a:hover{
+  color:white;
+  font-weight:bold;
+}
+/* H1 */
+h1
+{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+    text-decoration: underline;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px -10px 10px -10px;
+}
+/* List elements */
+li
+{
+  color: white;
+}
+ul
+{
+    align-items: baseline;
+}
+/* Paragraph elements */
+p
+{
+color: white;
+}
+/* Anchor Elements */
+a
+{
+    color: white;
+}
+/* Body */
+body
+{
+    background-color: lightgrey;
+}
+/* IMAGES */
+img
+{
+  border-radius: 10%;
+  padding-right: 550px;
+  padding-left: 550px;
+  
+}
+
+/* TABLE */
+.table-design>table
+{
+  border-width: 5px;
+  border-style: solid;
+  border-color: red;
+  background-color: white;
+  border-collapse: collapse;
+  width: 50%;
+  text-align: center;
+  margin-left: 500px:
+}
+.table-design>table th, .table-design>table td
+{
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+.table-design>table th
+{
+  background-color: orangered;
+}
+.table-design>table tr:hover
+{
+  background-color: lightgrey;
+}
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  body
+  {
+    background-color: white;
+  }
+  .container
+  {
+    background-color: navy;
+  }
+}
+
+@media print{
+  .screen-only
+  {
+    background-color: white;
+  }
+}
